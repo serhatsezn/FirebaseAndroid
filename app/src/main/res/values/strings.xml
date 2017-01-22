@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aydinserhatsezen</string>
+    <string name="minimum_password">Şifre çok kısa en az 6 hane girmelisin!</string>
+    <string name="auth_failed">Kayıtta hata oldu email ve şifreyi kontrol et!</string>
+</resources>

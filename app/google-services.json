@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "67777881914",
+    "firebase_url": "https://aydin-serhat-sezen.firebaseio.com",
+    "project_id": "aydin-serhat-sezen",
+    "storage_bucket": "aydin-serhat-sezen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67777881914:android:9d9ccea030041281",
+        "android_client_info": {
+          "package_name": "com.example.serhat.aydinserhatsezen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67777881914-8jlkcapthd1l01e970bo8b3rprqsj6vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.serhat.aydinserhatsezen",
+            "certificate_hash": "14BAAB89477CC49972364A350138B94D4FC6F095"
+          }
+        },
+        {
+          "client_id": "67777881914-9nfo5assiujp4qvl2qn84f8igra0hg8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR9WTls8ZKb0JlmeiyJCOiv0XGgPHhd58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67777881914-9nfo5assiujp4qvl2qn84f8igra0hg8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

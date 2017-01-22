@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgorund"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/lines"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lineEmail1">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lineEmail3">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Line4"
+                android:layout_alignBottom="@+id/lineEmail3"
+                android:layout_toRightOf="@+id/lineEmail3"
+                android:layout_toEndOf="@+id/lineEmail3">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF"
+                   />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="0dp"
+                android:layout_below="@+id/lineEmail1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:padding="10dp"
+                android:layout_alignBottom="@+id/linearLayout2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:text="Giriş Yap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loginbtn"
+            android:id="@+id/loginBtn"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/lines2"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/lines2"
+            android:layout_below="@+id/lines"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linePass1">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linePass3">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linePass4"
+                android:layout_alignBottom="@+id/linePass3"
+                android:layout_toRightOf="@+id/linePass3"
+                android:layout_toEndOf="@+id/linePass3">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="0dp"
+                android:layout_below="@+id/linePass1"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#ffffff"
+                    android:padding="10dp"
+
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:hint="Şifre"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:layout_alignBottom="@+id/linePass4"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="HOŞGELDİNİZ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/title"
+            android:textStyle="bold|italic"
+            android:textSize="50sp"
+            android:layout_above="@+id/desc"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="Aydın Serhat SEZEN Kişisel Blog Sitesi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="39dp"
+            android:layout_above="@+id/lines"
+            android:layout_centerHorizontal="true" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:padding="10dp"
+            android:id="@+id/slash"
+            android:layout_below="@+id/loginBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kayıt Ol"
+            android:background="@null"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:layout_alignBottom="@+id/slash"
+            android:layout_alignRight="@+id/slash"
+            android:layout_alignEnd="@+id/slash" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Şifremi Unutum"
+            android:id="@+id/btn_reset_password"
+            android:background="@null"
+            android:textColor="#FFFFFF"
+            android:layout_alignBaseline="@+id/btn_signup"
+            android:layout_alignBottom="@+id/btn_signup"
+            android:layout_toRightOf="@+id/slash"
+            android:layout_toEndOf="@+id/slash"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
